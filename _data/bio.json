@@ -237,5 +237,51 @@
       "name": "Available upon request",
       "reference": ""
     }
+  ],
+  "courses": [
+    ["Machine Learning & AI", [
+      "Introduction to Machine Learning", 
+      "Artificial Intelligence", 
+      "Theory and Applications of Ontologies", 
+      "Computational Models of Cognition", 
+      "Natural Language Processing", 
+      "Deep Learning"
+    ]],
+    ["Security", [
+      "Applied Cryptography", 
+      "Secure Systems Engineering"
+    ]],
+    ["Systems", [
+      "Operating Systems*", 
+      "Compiler Design*", 
+      "Computer Networks*", 
+      "Computer System Design*", 
+      "Introduction to Database Systems"
+    ]],
+    ["Algorithms & Programming", [
+      "Data Structures and Algorithms*", 
+      "Principles of Software Engg.*", 
+      "Paradigms of Programming", 
+      "GPU Programming",  
+      "Languages, Machines and Computations"
+    ]],
+    ["Hardware", [
+      "Switching Theory & Digital Design*", 
+      "Computer Organization*", 
+      "Digital Design Verification"
+    ]],
+    ["Math", [
+      "Discrete Mathematics for Computer Science*", 
+      "Basic Graph Theory", 
+      "Probability, Statistics and Stochastic Process", 
+      "Linear Algebra for Engineers", 
+      "Calculus I Functions of One Variable", 
+      "Calculus II Functions of Several Variables", 
+      "Game Theory"
+    ]],
+    ["Others", [
+      "Principles and Parameters of Natural Language", 
+      "Decision Modelling"
+    ]],
   ]
 }

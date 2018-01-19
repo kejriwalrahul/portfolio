@@ -1,0 +1,35 @@
+<!-- Used by theme-bio-builtin-1 -->
+
+{% if site.data.bio.skills %}
+<div class="row">
+  <div class="ui accordion" style="width: 100%;">
+    <div class="title">
+      <div class="two wide column">
+        <h3 class="ui left aligned header no-bottom"><i class="dropdown icon"></i>Course Work</h3>
+      </div>
+    </div>
+
+    <div class="content">
+      <table class="ui celled table" style="width: 74%; margin: auto; background-color: transparent; border-color: transparent;">
+        {% for key in site.data.bio.courses %}
+          <tr>
+            <td style="width: 20%; border-color: transparent;">
+              <h4 class="ui left aligned header no-bottom">{{key[0]}}</h4>
+            </td>
+            <td style="width: 80%; border-color: transparent;">
+              {% for course in key[1] %}
+                  {{ course }}{% if forloop.index != forloop.length %},{% endif %}
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+        <tr>
+          <td class="right aligned" colspan="2">
+            * - Theory &amp; Lab Course 
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+{% endif %}
