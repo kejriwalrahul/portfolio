@@ -11,11 +11,25 @@
       <img class="ui avatar image" src="{{ site.data.bio.basics.picture }}"><span>{{ site.data.bio.basics.name }}</span>
     </a>
     {% if num_projects > 0 %}
-    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">Projects ({{ num_projects }})</a>
+    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">Projects</a>
     {% endif %}
-    {% if num_essays > 0 %}
+    <!-- {% if num_essays > 0 %}
     <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item">Essays ({{ num_essays }})</a>
-    {% endif %}
+    {% endif %} -->
     <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">{{ site.bio-page-label }}</a>
+    
+    <div class="ui right item">
+      {% for profile in site.data.bio.basics.profiles %}
+        <div class="" style="margin-top: auto; margin-bottom: auto;">
+          <a href="{{ profile.url }}" target="_blank"> <i class="big {{ profile.network | downcase }} icon icon-color" style="font-size: 1.7em;"></i> </a>
+        </div>
+      {% endfor %}
+
+      {% if site.data.bio.basics.email %}
+        <div style="margin-top: auto; margin-bottom: auto;">
+          <a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon-color"></i> </a>
+        </div>
+      {% endif %}
+    </div>
   </nav>
 </div>

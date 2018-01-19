@@ -12,7 +12,16 @@
   <div class="ui grid">
     <div class="twelve wide column no-bottom">
       <p class="ui no-bottom"><b>{{ entry.institution }}</b></p>
-      <p class="ui no-bottom">{{ entry.studyType }}, {{ entry.area }}</p>
+      {% if entry.studyType %}
+      <p class="ui no-bottom">{{ entry.studyType }} in {{ entry.area }}</p>
+      {% endif %}
+
+      {% if entry.scores %}
+        {% for key in entry.scores %}
+          <p class="ui no-bottom">{{key[0]}}: <span style="font-style: italic;">{{ key[1] }}</span></p>
+        {% endfor %}
+      {% endif %}
+
       {% if entry.courses %}
       <ul style="margin: 0px;">
         {% for course in entry.courses %}

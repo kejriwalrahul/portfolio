@@ -29,24 +29,27 @@
         <div class="description">
           Interests:
           {% for interest in site.data.bio.interests %}
-            {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+            <button class="ui basic label" style="margin: 2px; cursor: default;">{{ interest.name }}</button>
+            <!-- {% if forloop.last != true %}, {% endif %} -->
           {% endfor %}
 
         </div>
       </div>
-      <div class="center aligned extra content">
-        {% include home-network-links.html %}
-      </div>
       <div class="center aligned content">
         <a href="{{ site.baseurl}}/projects/">
-          <button class="ui basic button">Projects ({{ num_projects }})</button>
+          <button class="ui basic button">Projects</button>
         </a>
-        <a href="{{ site.baseurl}}/essays/">
+<!--         <a href="{{ site.baseurl}}/essays/">
           <button class="ui basic button">Essays ({{ num_essays }})</button>
-        </a>
+        </a> -->
         <a href="{{ site.baseurl}}/bio/">
           <button class="ui basic button">{{ site.bio-page-label }}</button>
         </a>
+      </div>
+    </div>
+    <div style="max-width: 500px; margin-top: 0px; background-color: transparent; border-color: transparent; box-shadow: none;" class="ui fluid centered card">
+      <div class="center aligned content">
+        {% include home-network-links.html %}
       </div>
     </div>
   </div>

@@ -1,163 +1,235 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Rahul Kejriwal",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
-    "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
-    },
+    "picture": "/template/images/mypic.jpeg",
+    "email": "kejriwalrahul.1996@gmail.com",
+    "website": "https://kejriwalrahul.github.io",
+    "summary": "Pursuing a B.Tech. in Computer Science & Engineering at IIT Madras. I expect to graduate in 2018.",
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "kejriwalrahul",
+        "url": "http://github.com/kejriwalrahul"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "kejriwalrahul",
+        "url": "https://www.linkedin.com/in/rahul-kejriwal-511661a6/"
       },
       {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "network": "Stack Overflow",
+        "username": "kejriwalrahul",
+        "url": "https://stackoverflow.com/users/4232656/rahul-kejriwal"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Artificial Intelligence",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Machine Learning",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "System Security",
       "keywords": [
       ]
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages",
       "level": "",
       "keywords": [
         "C",
         "C++",
+        "Python",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "x86 Assembly", 
+        "Verilog", 
+        "SQL",
+        "HTML",
+        "CSS",
+        "...",
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Linux",
+        "Git",
+        "Weka",
+        "LATEX",
+        "Protege",
+        "...",
       ]
+    },
+    {
+      "name": "Libraries & Frameworks",
+      "level": "",
+      "keywords": [
+        "NLTK",
+        "scikit-learn",
+        "Django",
+        "NodeJS",
+        "AngularJS",
+        "Yeoman",
+        "...",
+      ]      
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "Indian Institute of  Technology, Madras",
+      "area": "Computer Science & Engineering",
+      "studyType": "B.Tech.",
+      "startDate": "2014-08-01",
       "endDate": "Present",
-      "gpa": "",
+      "scores": [
+        ["CGPA", "9.78"],
+      ],
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Birla High School, Kolkata",
+      "startDate": "2002-08-01",
+      "endDate": "2014-08-01",
+      "scores": [
+        ["XII (CBSE 2014)", "97.6%"],
+        ["X (CBSE 2012)", "10/10"],
+      ],
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Microsoft IDC, Hyderabad",
+      "position": "Research Engineering Intern",
+      "website": "https://microsoft.com/en-in/msidc/",
+      "startDate": "May 2017",
+      "endDate": "July 2017",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Worked on Statistical Machine Translation profile for the Bing Translate platform.",
+        "Worked on improving translation models for SMS domain to improve accessibility for machine-generated SMSs.",
+        "Constrained to work with very less parallel in-domain data to create models that generalize well.",
+        "Delivered significant increase over baseline models in terms of BLEU score.",
+        "Submitted a paper based on my work titled “Investigation & Modelling of SMS Translation” which was accepted at Synapse AI Meet 2017 (Microsoft internal conference)."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "DrumUp, Bangalore",
+      "position": "Web Development Intern",
+      "website": "http://drumup.io",
+      "startDate": "May 2016",
+      "endDate": "July 2016",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Worked mainly on backend using Django framework.", 
+        "Considerable amount of work with Facebook, Twitter and LinkedIn APIs.",
+        "Built and integrated an analytics module for the social media management app, DrumUp as well as their employee advocacy platform.",
+        "Built feature to pull social feed and incorporate it for their employee advocacy platform.",
+        "Built and integrated a link shortener service with click-tracking capability.",
+        "Implemented other small features like a promotional growth hack and updating the API calls being used."
+      ]
+    },
+    {
+      "company": "NETECH LLC, Connecticut (Work from Home)",
+      "position": "Software Engineering Intern",
+      "website": "http://anewenglandtech.com",
+      "startDate": "Feb 2016",
+      "endDate": "May 2017",
+      "summary": "",
+      "highlights": [
+        "Built light-weight interactive code tutorials using basic HTML, CSS and JavaScript for publishing along with a book by Tony Gaddis (Publisher: Pearson).", 
+        "Built code exercises using TuringsCraft platform for checking correct usage of basic programming constructs for the same book.",
+        "Delivered a prototype system for checking accuracy of pronunciation of medical terminology.",
+        "Headed a team of 4 interns for organizing, scheduling, and ensuring timely delivery of the project."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "National Service Scheme",
+      "website": "https://nssiitm.wordpress.com",
+      "position": "Volunteer",
+      "startDate": "Aug 2014",
+      "endDate": "Apr 2015",
+      "summary": "Collaborated with NGO Deepam to provide computer education to underprivileged students in Chennai.",
+    }
+  ],
+    "pors": [
+    {
+      "company": "Exebit - 2018, CSE Department IIT Madras",
+      "website": "http://exebit.in",
+      "position": "WebOps Core (Backend)",
+      "startDate": "Sep 2017",
+      "endDate": "Feb 2018",
+      "summary": "",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Managed team of 4 coordinators and was responsible for building the backend for the Exebit website.",
+        "Was also responsible for building and maintaining the Exebit blog."
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "company": "Shaastra - 2016, IIT Madras",
+      "website": "http://shaastra.org",
+      "position": "WebOps Coordinator (Backend)",
+      "startDate": "Jun 2015",
+      "endDate": "Jan 2016",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Shaastra is the annual technical fest of IIT Madras.",
+        "Worked on the backend portals for the Institute Tech Fest using NodeJs framework along with AngularJS to form full-stack web apps.",
+        "Specifically worked on the EventsPortal (a portal for Cores and Coordinators to plan the events) and LeadsPortal (a portal used by the Spons department)."
       ]
-    }
+    },
+    {
+      "company": "Center for Innovation, IIT Madras",
+      "website": "http://cfi.iitm.ac.in",
+      "position": "Electronics Club Coordinator",
+      "startDate": "Aug 2015",
+      "endDate": "May 2016",
+      "summary": "",
+      "highlights": [
+        "Organized electronics sessions and workshops for more than 300 students.", 
+        "Mentored a group of 4 students on the project, high accuracy Wifi based Positioning System (WiPS).",
+        "Worked on various mini-projects like: Arduino based Odometer/Speedometer, Line-following Robot and Arduino based device to write posts on Twitter."
+      ]
+    },
+    {
+      "company": "Shaastra - 2016, IIT Madras",
+      "website": "http://shaastra.org",
+      "position": "Event Coordinator – Humanoids",
+      "startDate": "Aug 2015",
+      "endDate": "Jan 2016",
+      "summary": "",
+      "highlights": [
+        "Introduced a new tech event, 'Humanoids' (participants were asked to build a Biped Robot to solve an interesting problem statement).", 
+        "Successfully conducted the event and received large number of participants from various regions."
+      ]
+    },
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "KVPY scholarship holder under SX Stream",
+      "date": "2013",
+      "summary": "Kishore Vaigyanik Protsahan Yojana (KVPY) is a scholarship program funded by the Department of Science and Technology of the Government of India, aimed at encouraging students to take up research careers in the areas of basic sciences, engineering and medicine."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Sri V Ramachandran Prize",
+      "date": "2017",
+      "awarder": "IIT Madras",
+      "summary": "Awarded for attaining for highest CGPA till 4th Semester in the CSE 2014 batch"
     }
   ],
   "references": [

@@ -1,13 +1,11 @@
 <!-- Used by theme-bio-builtin-1,2 -->
 
-{% if site.data.bio.basics.website %}
-  <p class="ui no-bottom"><a href="{{ site.data.bio.basics.website }}"> <i class="large home icon "></i>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</a></p>
-{% endif %}
-
-{% if site.data.bio.basics.email %}
-<p class="ui no-bottom"><a href="mailto:{{ site.data.bio.basics.email }}"> <i class="large mail outline icon "></i>{{ site.data.bio.basics.email }}</a></p>
-{% endif %}
-
-{% for entry in site.data.bio.basics.profiles %}
-     <p class="ui no-bottom"><a href="{{ entry.url }}"> <i class="large {{ entry.network | downcase }} icon "></i>{{ entry.username }}</a></p>
-{% endfor %}
+<div class="ui center aligned tiny header no-bottom" style="margin-top: 10px; margin-bottom: 15px !important;">
+	{% if site.data.bio.basics.website %}
+  		<a href="{{ site.data.bio.basics.website }}"> <i class="large home icon "></i>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</a>
+	{% endif %}
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	{% if site.data.bio.basics.email %}
+		<a href="mailto:{{ site.data.bio.basics.email }}"> <i class="large mail outline icon "></i>{{ site.data.bio.basics.email }}</a>
+	{% endif %}
+</div>
